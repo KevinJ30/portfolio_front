@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import { Icon_stars, Icon_stars_golden } from './Icons/icons';
+import { Icon_stars, Icon_stars_golden } from '../Icons/icons';
 
 export function Rates(props) {
     const [stars, setStars] = useState([]);
