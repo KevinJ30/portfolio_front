@@ -8,7 +8,7 @@ export function Rates(props) {
         const newStars = [];
         const rating = Math.round(props.rating);
 
-        for(let i = 0; i < Math.round(rating); i++) {
+        for(let i = 0; i < 5; i++) {
             if(i < rating) {
                 newStars.push(<Icon_stars_golden key={i} />);
             } else {
