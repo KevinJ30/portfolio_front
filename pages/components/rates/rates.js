@@ -20,9 +20,6 @@ export function Rates(props) {
     }, [])
 
     return <div className="rates">
-        <span>Mes étoiles</span>
-        <div className="container_stars">
-            {  stars.map(item => item) }
-        </div>
+        {  stars.map(item => item) }
     </div>;
 }

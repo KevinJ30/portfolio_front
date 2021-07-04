@@ -1,9 +1,11 @@
-/**
- * Composants
- **/
-@import './components/rates';
 
 /**
  * General
  **/
+@import './general.scss';
 @import './icons.scss';
+
+/**
+ * Composants
+ **/
+@import './components/skill';

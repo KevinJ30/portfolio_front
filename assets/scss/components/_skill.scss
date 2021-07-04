@@ -1,0 +1,34 @@
+.rates {
+    display:flex;   
+}
+
+.rates > span.icon {
+    margin-right:8px;
+}
+
+.rates > span.icon:last-child {
+    margin:0;
+}
+
+.skill {
+    display:flex;
+    width:fit-content;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.skill__icon {
+    width: 96px;
+    height:96px;
+    height:fit-content;
+}
+
+.skill__rates {
+    margin-bottom:8px; 
+}
+
+.skill__title {
+    margin:0;
+}
+

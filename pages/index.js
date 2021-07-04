@@ -1,8 +1,17 @@
 import Head from 'next/head'
 
+import React from 'react';
+
 import { Rates } from './components/rates/rates';
+import { Skill } from './components/Skill/skill';
 
 export default function Home() {
+  
+  function createSVG() {
+    return {
+      __html: "<div>Mon icone</div>"
+    }
+  }
 
   return (
     <div>
@@ -13,7 +22,10 @@ export default function Home() {
       </Head>
       <h1>Mes composants</h1>
 
-      <Rates rating={2.5} />
+      <Skill title={"HTML"}>
+          <Rates rating={2.3} />
+          <div dangerouslySetInnerHTML={createSVG()} />
+      </Skill>
     </div>
   )
 }
