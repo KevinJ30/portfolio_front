@@ -1,0 +1,25 @@
+.btn {
+    display:block;
+    padding:16px 24px;
+    text-decoration:none;
+    background:$secondary-color;
+    text-decoration: none;
+    color:$light-color;
+    border-radius:3px;
+    font-weight:600;
+    transition:background .3s;
+}
+
+.btn:hover {
+    background:$secondary-hover-color;
+}
+
+.btn.btn-outline {
+    background:transparent;
+    border: 1px solid $secondary-color;
+    color:$secondary-color;
+}
+
+.btn.btn-outline:hover {
+    background:rgba(255, 255, 255, 0.05);
+}

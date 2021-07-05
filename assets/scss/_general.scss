@@ -1,3 +1,10 @@
 * {
     box-sizing: border-box;
 }
+
+body {
+    background:$primary-color;
+    color:$light-color;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight:300;
+}

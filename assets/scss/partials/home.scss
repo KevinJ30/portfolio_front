@@ -1,0 +1,18 @@
+.intro__grid {
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.intro__call-actions {
+    display:flex;
+}
+
+.intro__call-actions .btn:first-child {
+    margin-right: space(2, 8);
+}
+
+@include down(950) {
+    .intro__grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

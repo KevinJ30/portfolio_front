@@ -1,11 +1,27 @@
+/**
+ * reset-css
+ **/
+@import '../../node_modules/reset-css/reset.css';
 
 /**
- * General
- **/
+* Utilsl
+**/
+@import './utils/vars.scss';
+@import './utils/icons.scss';
+@import './utils/utils';
+@import './utils/grid';
+@import './utils/typo.scss';
+
 @import './general.scss';
-@import './icons.scss';
 
 /**
- * Composants
- **/
+* Composants
+**/
 @import './components/skill';
+@import './components/btn';
+
+
+/**
+* partials
+**/
+@import './partials/home';

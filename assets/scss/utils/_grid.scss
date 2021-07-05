@@ -1,0 +1,12 @@
+.section {
+    padding:64px 0px;
+}
+
+.container {
+    @include container;
+}
+
+.section.alternativly {
+    background:#282A2B;
+}
+
